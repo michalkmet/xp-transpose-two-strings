@@ -45,3 +45,12 @@ Pomodoro 2:
 - ✅ UAT2.4: When user pass ['Ab','Cd'], it should return 
 'A' 'C'
 'b' 'd'
+- 🚧 UAT2.5: When user pass ['Hey all','Please'], it should return 
+'H' 'P'
+'e' 'l'
+'y' 'e'
+' ' 'a'
+'a' 's'
+'l' 'e'
+'l' ' '
+Pomodoro 3:
