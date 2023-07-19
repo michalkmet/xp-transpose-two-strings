@@ -14,3 +14,8 @@ describe('STORY 1', () => {
     expect(() => transposeTwoStrings(['string'])).toThrow();
   });
 });
+describe('STORY 2', () => {
+  it('UAT1.1: When user pass ["a","a"], it should return "a a"', () => {
+    expect(transposeTwoStrings(['a', 'a'])).toBe('a a');
+  });
+});

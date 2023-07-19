@@ -32,3 +32,4 @@ POMODORO 1:
 - ✅ UAT1.3: When user pass string, it should return an exception
 - ✅ UAT1.4: When user pass array with only one string, it should return an exception
 - Refactor story 1
+- 🚧 TODO UAT2.1: When user pass ['a','a'], it should return 'a a'
