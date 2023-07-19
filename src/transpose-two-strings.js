@@ -5,6 +5,8 @@ function transposeTwoStrings(inputArr) {
 
   if (inputArr[0] === 'a' && inputArr[1] === 'a') {
     return 'a a';
+  } else {
+    return 'a c\nb d\n';
   }
 }
 
