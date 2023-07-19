@@ -10,4 +10,7 @@ describe('STORY 1', () => {
   it('UAT1.3: When user pass string, it should return an exception', () => {
     expect(() => transposeTwoStrings('string')).toThrow();
   });
+  it('UAT1.4: When user pass array with only one string, it should return an exception', () => {
+    expect(() => transposeTwoStrings(['string'])).toThrow();
+  });
 });

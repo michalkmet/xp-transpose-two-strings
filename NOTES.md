@@ -30,4 +30,5 @@ POMODORO 1:
 - ✅ UAT1.1: When user pass no input, it should return an exception
 - ✅ UAT1.2: When user pass empty array, it should return an exception
 - ✅ UAT1.3: When user pass string, it should return an exception
-- ⚠ TODO UAT1.4: When user pass array with only one string, it should return an exception
+- ✅ UAT1.4: When user pass array with only one string, it should return an exception
+- Refactor story 1

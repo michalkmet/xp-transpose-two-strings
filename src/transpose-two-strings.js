@@ -1,5 +1,7 @@
 function transposeTwoStrings(inputArr) {
-  throw new Error('wrong input');
+  if (!Array.isArray(inputArr) || inputArr.length < 2) {
+    throw new Error('wrong input');
+  }
 }
 
 module.exports = transposeTwoStrings;
