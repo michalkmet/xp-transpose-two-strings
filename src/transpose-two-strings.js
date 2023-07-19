@@ -2,12 +2,17 @@ function transposeTwoStrings(inputArr) {
   if (!Array.isArray(inputArr) || inputArr.length < 2) {
     throw new Error('wrong input');
   }
-
-  if (inputArr[0] === 'a' && inputArr[1] === 'a') {
-    return 'a a';
-  } else {
-    return 'a c\nb d\n';
+  let result = '';
+  const maxLength = inputArr[0].length > inputArr[1].length ? inputArr[0].length : inputArr[1].length;
+  for (let i = 0; i < maxLength; i++) {
+    const row1 = inputArr[0].hasOwnProperty(i) ? inputArr[0][i] : ' ';
+    const row2 = inputArr[1].hasOwnProperty(i) ? inputArr[1][i] : ' ';
+    result += `${row1} ${row2}`;
+    if (maxLength > 1) {
+      result += '\n';
+    }
   }
+  return result;
 }
 
 module.exports = transposeTwoStrings;
