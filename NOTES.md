@@ -25,5 +25,6 @@ If one string is longer than the other, there should be a space where the charac
 ## Plans
 
 POMODORO 1:
-- 🚧 TODO Initial setup & refactor
-- ⚠ TODO Create User stories
+- ✅ Initial setup & refactor
+- ✅ Create User stories
+- ✅ UAT1.1: When user pass no input, it should return an exception

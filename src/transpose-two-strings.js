@@ -1,5 +1,5 @@
 function transposeTwoStrings() {
-  return 'hello';
+  throw new Error('wrong input');
 }
 
 module.exports = transposeTwoStrings;
