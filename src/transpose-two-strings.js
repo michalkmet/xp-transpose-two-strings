@@ -1,4 +1,4 @@
-function transposeTwoStrings() {
+function transposeTwoStrings(inputArr) {
   throw new Error('wrong input');
 }
 
