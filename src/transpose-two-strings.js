@@ -8,7 +8,7 @@ function transposeTwoStrings(inputArr) {
     const row1 = inputArr[0].hasOwnProperty(i) ? inputArr[0][i] : ' ';
     const row2 = inputArr[1].hasOwnProperty(i) ? inputArr[1][i] : ' ';
     result += `${row1} ${row2}`;
-    if (maxLength > 1) {
+    if (maxLength > 1 && i+1 < maxLength) {
       result += '\n';
     }
   }

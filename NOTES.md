@@ -54,3 +54,11 @@ Pomodoro 2:
 'l' 'e'
 'l' ' '
 Pomodoro 3:
+- ✅ UAT2.5: When user pass ['Hey all','Please'], it should return 
+'H' 'P'
+'e' 'l'
+'y' 'e'
+' ' 'a'
+'a' 's'
+'l' 'e'
+'l' ' '
