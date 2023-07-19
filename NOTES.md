@@ -42,3 +42,6 @@ Pomodoro 2:
 - ✅ UAT2.3: When user pass ['ab','c'], it should return 
 'a' 'c'
 'b' ' ' 
+- ✅ UAT2.4: When user pass ['Ab','Cd'], it should return 
+'A' 'C'
+'b' 'd'
